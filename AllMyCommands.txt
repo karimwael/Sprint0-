@@ -1,0 +1,28 @@
+git init 
+
+git add GettingStarted.txt
+git add GitBranching.txt
+git add DistributedGit.txt
+
+git rm --cached GitBranching.txt
+
+git revert GitBranching.txt
+git add GitBranching.txt
+
+git commit -m "GitBranching file reverted"
+
+git remote add GitHubSprint0- https://github.com/karimwael/Sprint0-.git
+git push -u GitHubSprint0-
+
+git branch ReadMe
+git checkout ReadMe
+
+git add README.md 
+
+git commit -m "Added README.md to The Branch ReadMe
+
+git checkout master 
+git merge ReadMe 
+
+git add AllMyCommands.txt
+git commit -m "Added a New File (AllMyCommands.txt)"
